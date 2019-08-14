@@ -71,8 +71,10 @@ module.exports.run = async (bot, message, args, fs, emojiCharacters, mistikactiv
 		secondcollector.on('collect', async (r) => {
 			switch (r.emoji.name) {
 				case '✅': let confirmedrole = message.channel.guild.roles.get("611142539734679572");
+				let incidentCH = message.guild.channes.get("611092711390445568");	
 				await message.member.addRole(confirmedrole.id);
-        await message.member.setNickname(`${nickname}`);
+                                await message.member.setNickname(`${nickname}`);
+			        incidentCH.send(`❗${gotus} подтвердил ник ${nickname} у пользователя ${message.member}`);
 				message.author.send(`Ваш ник ${nickname} успешно подтвержден и теперь вы можете создавать свои собственные группы используя команду **!newparty**`);
 				checking = true;
 				secondcollector.stop();
