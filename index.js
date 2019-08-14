@@ -6,7 +6,6 @@ const events = require('events');
 const readline = require('readline');
 const emojiCharacters = require('./emojiCharacters');
 const mistikactiveclrusers = new Array();
-let pldata = JSON.parse(fs.readFileSync('./platinum.json', 'utf8'));
 const settingnicknames = new Array(); //Список для команды !setnick
 const buildactiveusers = new Array(); //Список для команды !getbuild
 const addbuildactiveusers = new Array(); //Список для команды !addbuild
