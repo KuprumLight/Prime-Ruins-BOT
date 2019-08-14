@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 module.exports.run = async (bot, message, args, fs, emojiCharacters, mistikactiveclrusers, settingnicknames, buildactiveusers, addbuildactiveusers, deletebuildactiveusers, parties, newpartyactiveusers) =>
 {
   if (message.member.user.id !== "298114205352198145") return message.delete()
-  let infochannel = message.channel.guild.channels.get("602539583548424266"); //Канала правила-ифнормация💡 ,менять ID
+  let infochannel = message.channel.guild.channels.get("464816538676101132"); //Канала правила-ифнормация💡 ,менять ID
   let clanembed = new Discord.RichEmbed()
   .setColor("#4c4cff")
   .addField("Правила набора в клан:", "В Клан Warframe PrimeRuins мы набираем **всех** желающих! Если вы новичок, то мы откроем вам тайны Warframe и поможем со всеми вопросами, касательно игры. Если же вы бывалый воин — **присоединяйтесь**!")
