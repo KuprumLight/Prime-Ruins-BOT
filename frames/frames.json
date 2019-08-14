@@ -11,28 +11,7 @@
     },
     "Ак И Брант": {
       "image": "https://i.imgur.com/kXo7fL0.png",
-      "builds": [
-      {
-        "name": "холод",
-        "image": "https://cdn.discordapp.com/attachments/467379698176098355/555467224047943681/unknown.png",
-        "description": "длэтисмчоэмммммэмэмэмээ"
-      },
-      {
-        "name": "кукарику",
-        "image": "https://cdn.discordapp.com/attachments/467379698176098355/555467224047943681/unknown.png",
-        "description": "К сожалению автор не предоставил описание для даного билда."
-      },
-      {
-        "name": "крит статус",
-        "image": "https://cdn.discordapp.com/attachments/467379698176098355/554635325574742036/unknown.png",
-        "description": "гуд билд пользуйтесь палооалполаопл"
-      },
-      {
-        "name": "впджорр<:Tellurium:596371616405913600> <:Tellurium:596371616405913600> <:MutagenMass:596371615852527636>",
-        "image": "https://cdn.discordapp.com/attachments/467379698176098355/556853671548289024/unknown.png",
-        "description": "К сожалению автор не предоставил описание для даного билда."
-      }
-    ],
+      "builds": [],
       "rank": "3"
     },
     "Акболто": {
