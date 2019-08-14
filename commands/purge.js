@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 module.exports.run = async (bot, message, args, fs, emojiCharacters, mistikactiveclrusers, settingnicknames, buildactiveusers, addbuildactiveusers, deletebuildactiveusers, parties, newpartyactiveusers) =>
 {
-if (message.channel.id === ("610505750607036417" || "610857080005328929" || "610743140055384084" || "611092711390445568" || "610855738793000970"))
+if (message.channel.id === ("610505750607036417" || "610857080005328929" || "610743140055384084" || "611092711390445568" || "610855738793000970")) return message.delete()
 if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("Недостаточно прав");
 if(!args[0]) return message.reply("Укажите количество сообщений для очистки");
 let deletecount = args[0];
