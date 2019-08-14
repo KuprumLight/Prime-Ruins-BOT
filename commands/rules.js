@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 module.exports.run = async (bot, message, args, fs, emojiCharacters, mistikactiveclrusers, settingnicknames, buildactiveusers, addbuildactiveusers, deletebuildactiveusers, parties, newpartyactiveusers) =>
 {
 
-  const imperator = message.guild.roles.get("598120656353230849"); //роль император, менять ID
+  const imperator = message.guild.roles.get("465211854793211904"); //роль император, менять ID
   if (!message.member.roles.has(imperator.id))
   {
     message.delete();
