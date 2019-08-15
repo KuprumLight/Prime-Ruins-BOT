@@ -6,6 +6,15 @@ module.exports.run = async (bot, message, args, fs, emojiCharacters, mistikactiv
   let torep = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
   if (!torep) return message.reply("Не могу найти такого пользователя...");
   if (torep.id === message.member.id) return message.reply("Самому себе? Серьёзно?");
+  if (torep.roles.has("465211854793211904"))
+  {
+    let ie = new Discord.RichEmbed()
+    .setDescription("***Он Силён. Он Мудр. Он Могущ. Славим Его!***")
+    .setImage("https://i.imgur.com/bSuK0Hi.jpg")
+    .setColor("#EDC951");
+    message.channel.send(ie);
+    return;
+  }
   let data = JSON.parse(fs.readFileSync('./reps.json', 'utf8'));
   if (!data.hasOwnProperty(torep.id))
   {
