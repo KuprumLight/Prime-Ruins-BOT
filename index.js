@@ -70,6 +70,7 @@ let newmemberschannel = member.guild.channels.find(el => el.id === "575242426084
 let informchannel = member.guild.channels.find(el => el.id === "464816538676101132"); //Канал правила-информация, менять ID.
 newmemberschannel.send("Добро Пожаловать " + `${member}` + "! Теперь нас уже " + `${member.guild.memberCount}` + "! Прочитай правила в канале " + informchannel); //Дописать\ ссылку на канал.
 member.addRole('595932393412493313'); //id роли свежак, но это точно
+member.send("Добро пожаловать в __*PrimeRuins*__! Теперь вы официально пополнили ряды молодых бойцов нашего Сервера. Приятного вам общения и игры!");
 
 });
 bot.on("message", async message => {
